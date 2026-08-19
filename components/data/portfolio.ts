@@ -26,22 +26,29 @@ export const profile = {
 export const heroTags = [
   {
     label: "MACHINE LEARNING",
-    confidence: "0.98",
+  },
+  {
+    label: "DEEP LEARNING",
   },
   {
     label: "COMPUTER VISION",
-    confidence: "0.96",
   },
   {
     label: "DATA SCIENCE",
-    confidence: "0.94",
+  },
+  {
+    label: "DATA ANALYSIS",
   },
 ];
 
 export const aboutParagraphs = [
-  `I'm finishing my Information Technology degree at Universitas Muhammadiyah Yogyakarta, with most of my work sitting at the intersection of deep learning and computer vision — the kind of AI that has to look at an image and make a call in real time.`,
+  `I'm finishing my Information Technology degree at Universitas Muhammadiyah Yogyakarta, 
+  with most of my work sitting at the intersection of deep learning and computer vision — 
+  the kind of AI that has to look at an image and make a call in real time.`,
 
-  `My thesis app detects corn leaf disease straight from a phone camera using YOLOv8n, and a companion web system uses ConvNeXt-Small for the same problem — that one was published at the International Conference on Sustainable Agriculture (ICOSA) 2026.`,
+  `My thesis app detects corn leaf disease straight from a phone camera using YOLOv8n, 
+  and a companion web system uses ConvNeXt-Small for the same problem — that one was published at the 
+  International Conference on Sustainable Agriculture (ICOSA) 2026.`,
 
   `Outside of models, I've done front-end work on production pages and spent time in student governance coordinating faculty-wide programs. I like projects where the model has to survive contact with a real user, not just a benchmark.`,
 ];
@@ -153,24 +160,34 @@ export const projects: Project[] = [
 
 export const credentials: Credential[] = [
   {
-    icon: "DB",
+    icon: "BNSP",
     title: "Certified Database Administrator (CDBA)",
     desc: "Badan Nasional Sertifikasi Profesi (BNSP). Covers SQL, database design, ERD modeling, backup/recovery, and maintenance planning.",
     when: "2026 – 2029",
+
+    pdf: "/credentials/sertifikasi-cdba.pdf",
   },
 
   {
     icon: "CV",
     title: "ICOSA Published Research",
-    desc: "Web-based corn leaf disease detection system, presented at the International Conference on Sustainable Agriculture.",
+    desc: "Web-based corn leaf disease detection system using ConvNeXt-Small for automatic disease classification, presented at the International Conference on Sustainable Agriculture (ICOSA) 2026.",
+
     when: "2026",
+
+    pdf: "/credentials/ICOSA-IraJesicaJanuariS.pdf",
+
+    link: "https://...",
   },
 
   {
     icon: "©",
     title: "DJKI Registered Copyright",
-    desc: "Village Financial Recording App registered as a copyrighted computer program.",
+    desc: "Village Financial Recording App registered as a copyrighted computer program with DJKI.",
+
     when: "25 May 2026",
+
+    pdf: "/credentials/sertifikatHkiDompetWarga.pdf",
   },
 ];
 
