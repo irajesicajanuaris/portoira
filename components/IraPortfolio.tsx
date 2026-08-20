@@ -14,34 +14,38 @@ import Credentials from "./sections/Credentials";
 import Education from "./sections/Education";
 import Contact from "./sections/Contact";
 
+import { LanguageProvider } from "./context/LanguageContext";
+
 import "./styles/portfolio.css";
 
 export default function IraPortfolio() {
   return (
-    <MotionConfig reducedMotion="user">
-      <div className="ira-portfolio">
-        <Navbar />
+    <LanguageProvider>
+      <MotionConfig reducedMotion="user">
+        <div className="ira-portfolio">
+          <Navbar />
 
-        <main className="wrap">
-          <Hero />
+          <main className="wrap">
+            <Hero />
 
-          <About />
+            <About />
 
-          <Skills />
+            <Skills />
 
-          <Experience />
+            <Experience />
 
-          <Projects />
+            <Projects />
 
-          <Credentials />
+            <Credentials />
 
-          <Education />
+            <Education />
 
-          <Contact />
-        </main>
+            <Contact />
+          </main>
 
-        <Footer />
-      </div>
-    </MotionConfig>
+          <Footer />
+        </div>
+      </MotionConfig>
+    </LanguageProvider>
   );
 }

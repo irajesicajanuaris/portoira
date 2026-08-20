@@ -17,6 +17,10 @@ export type Project = {
   title: string;
   desc: string;
   stack: string[];
+
+  images?: string[];
+  github?: string;
+  live?: string;
 };
 
 export type Credential = {

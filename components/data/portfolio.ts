@@ -25,19 +25,16 @@ export const profile = {
 
 export const heroTags = [
   {
-    label: "MACHINE LEARNING",
+    label: "Deep Learning",
   },
   {
-    label: "DEEP LEARNING",
+    label: "Computer Vision",
   },
   {
-    label: "COMPUTER VISION",
+    label: "Data Science",
   },
   {
-    label: "DATA SCIENCE",
-  },
-  {
-    label: "DATA ANALYSIS",
+    label: "Data Analysis",
   },
 ];
 
@@ -131,6 +128,15 @@ export const projects: Project[] = [
     title: "Real-Time Corn Leaf Disease Detection App",
     desc: "A mobile app that detects four corn leaf diseases live through the camera and recommends early treatment, with gallery detection, auth, and a detection history log.",
     stack: ["Flutter", "Python", "YOLOv8n", "Node.js", "MySQL"],
+
+    images: [
+      "/projects/corn/home.jpg",
+      "/projects/corn/detection.jpg",
+      "/projects/corn/result.jpg",
+      "/projects/corn/history.jpg",
+    ],
+    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    live: "https://your-live-website.vercel.app",
   },
 
   {
@@ -139,6 +145,15 @@ export const projects: Project[] = [
     title: "Web-Based Corn Leaf Disease Detection System",
     desc: "A web system using ConvNeXt-Small to classify corn leaf disease from an uploaded image, pairing each prediction with disease info and treatment guidance.",
     stack: ["Python", "Flask", "ConvNeXt-Small", "OpenCV"],
+
+    images: [
+      "/projects/corn/home.jpg",
+      "/projects/corn/detection.jpg",
+      "/projects/corn/result.jpg",
+      "/projects/corn/history.jpg",
+    ],
+    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    live: "https://your-live-website.vercel.app",
   },
 
   {
@@ -147,6 +162,15 @@ export const projects: Project[] = [
     title: "Village Financial Recording App",
     desc: "A mobile app for recording and reporting village-level financial transactions, registered as a copyrighted computer program with DJKI.",
     stack: ["Flutter", "Firebase", "MySQL"],
+
+    images: [
+      "/projects/corn/home.jpg",
+      "/projects/corn/detection.jpg",
+      "/projects/corn/result.jpg",
+      "/projects/corn/history.jpg",
+    ],
+    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    live: "https://your-live-website.vercel.app",
   },
 
   {
@@ -155,6 +179,15 @@ export const projects: Project[] = [
     title: "Mental Health Data Analysis",
     desc: "Preprocessing, exploratory data analysis, and visualization work aimed at surfacing meaningful trends in a mental-health dataset.",
     stack: ["Python", "SQL", "Pandas", "Matplotlib"],
+
+    images: [
+      "/projects/corn/home.jpg",
+      "/projects/corn/detection.jpg",
+      "/projects/corn/result.jpg",
+      "/projects/corn/history.jpg",
+    ],
+    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    live: "",
   },
 ];
 
