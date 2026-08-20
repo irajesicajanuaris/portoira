@@ -7,7 +7,7 @@ import type {
 
 export const profile = {
   name: "Ira Jesica Januari S.",
-  role: "Machine Learning Engineer · Computer Vision",
+  role: "Data Analysis · AI / Machine Learning · Database System",
   location: "Kediri, East Java, ID",
   education: "B.IT — Universitas Muhammadiyah Yogyakarta",
   gpa: "3.77 / 4.00",
@@ -20,34 +20,21 @@ export const profile = {
 
   github: "https://github.com/irajesicajanuaris",
 
-  whatsapp: "https://wa.me/085704978100",
+  whatsapp: "https://wa.me/6285704978100",
 };
 
 export const heroTags = [
-  {
-    label: "Deep Learning",
-  },
-  {
-    label: "Computer Vision",
-  },
-  {
-    label: "Data Science",
-  },
-  {
-    label: "Data Analysis",
-  },
+  { label: "Data Analysis" },
+  { label: "AI / Machine Learning" },
+  { label: "Database System" },
 ];
 
 export const aboutParagraphs = [
-  `I'm finishing my Information Technology degree at Universitas Muhammadiyah Yogyakarta, 
-  with most of my work sitting at the intersection of deep learning and computer vision — 
-  the kind of AI that has to look at an image and make a call in real time.`,
+  `Fresh graduate in Information Technology from Universitas Muhammadiyah Yogyakarta with a cumulative GPA of 3.77/4.00. Experienced in data analysis, database systems, computer vision, machine learning, and web and mobile application development through academic and applied projects.`,
 
-  `My thesis app detects corn leaf disease straight from a phone camera using YOLOv8n, 
-  and a companion web system uses ConvNeXt-Small for the same problem — that one was published at the 
-  International Conference on Sustainable Agriculture (ICOSA) 2026.`,
+  `Developed AI-based corn leaf disease detection systems using YOLOv8n and ConvNeXt-Small, as well as a village financial recording application using Flutter, Node.js, and MySQL.`,
 
-  `Outside of models, I've done front-end work on production pages and spent time in student governance coordinating faculty-wide programs. I like projects where the model has to survive contact with a real user, not just a benchmark.`,
+  `Holds a BNSP Certified Database Administrator (CDBA) credential and has presented research at an international conference — the paper has been accepted for publication and is forthcoming in December 2026.`,
 ];
 
 export const stats = [
@@ -83,19 +70,16 @@ export const skillGroups: Skill[] = [
     chips: ["Flutter", "Flask", "Bootstrap", "OpenCV"],
   },
   {
+    title: "Data & AI",
+    chips: ["Pandas", "Matplotlib", "Scikit-Learn"],
+  },
+  {
     title: "Database",
     chips: ["MySQL"],
   },
   {
-    title: "Tools & Platforms",
-    chips: [
-      "Node.js",
-      "Firebase",
-      "Git",
-      "GitHub",
-      "VS Code",
-      "Android Studio",
-    ],
+    title: "Tools & Technologies",
+    chips: ["Git", "GitHub", "VS Code", "Android Studio"],
   },
 ];
 
@@ -105,18 +89,18 @@ export const experience: Experience[] = [
     title: "Front-End Developer Intern",
     org: "Directorate of Digital Innovation, Universitas Muhammadiyah Yogyakarta",
     bullets: [
-      "Built and maintained 15+ responsive pages for the UMY Marketplace using HTML, CSS, JavaScript, and Bootstrap.",
-      "Implemented UI components that stayed consistent across pages and screen sizes.",
+      "Developed and maintained over 15 responsive web pages for the UMY Marketplace using HTML, CSS, JavaScript, and Bootstrap.",
+      "Implemented responsive UI components ensuring consistent user experience across multiple devices.",
     ],
   },
 
   {
     when: "2023 — 2024",
-    title: "Internal & External Affairs Staff",
-    org: "Dewan Perwakilan Mahasiswa (DPM), Faculty of Engineering, UMY",
+    title: "Staff, Internal & External Affairs",
+    org: "DPM Faculty of Engineering, Universitas Muhammadiyah Yogyakarta",
     bullets: [
-      "Coordinated internal and external activities supporting faculty programs.",
-      "Ran mid-term and monthly evaluations to improve organizational performance.",
+      "Coordinated communication between 200+ students and faculty administration.",
+      "Organized mid-term and monthly evaluations to improve organizational performance.",
     ],
   },
 ];
@@ -125,8 +109,8 @@ export const projects: Project[] = [
   {
     id: "PRJ / 01 — THESIS",
     badge: "Mobile · Real-time",
-    title: "Real-Time Corn Leaf Disease Detection App",
-    desc: "A mobile app that detects four corn leaf diseases live through the camera and recommends early treatment, with gallery detection, auth, and a detection history log.",
+    title: "AI Based Mobile Application for Real-Time Corn Leaf Disease Detection",
+    desc: "Developed an AI-powered mobile application using YOLOv8n to detect and classify four corn leaf conditions, achieving 0.990 precision, 0.983 recall, and 0.993 mAP50. Implemented camera and gallery detection, bounding boxes, confidence scores, detection history, and early treatment recommendations.",
     stack: ["Flutter", "Python", "YOLOv8n", "Node.js", "MySQL"],
 
     images: [
@@ -143,7 +127,7 @@ export const projects: Project[] = [
     id: "PRJ / 02 — PUBLISHED",
     badge: "ICOSA 2026",
     title: "Web-Based Corn Leaf Disease Detection System",
-    desc: "A web system using ConvNeXt-Small to classify corn leaf disease from an uploaded image, pairing each prediction with disease info and treatment guidance.",
+    desc: "Developed a web-based disease detection system using ConvNeXt-Small, achieving 97.31% test accuracy across 4 classes on 4,188 images, with an interactive Flask web application featuring confidence scoring and treatment recommendations.",
     stack: ["Python", "Flask", "ConvNeXt-Small", "OpenCV"],
 
     images: [
@@ -159,8 +143,8 @@ export const projects: Project[] = [
   {
     id: "PRJ / 03 — CAPSTONE",
     badge: "DJKI Copyright",
-    title: "Village Financial Recording App",
-    desc: "A mobile app for recording and reporting village-level financial transactions, registered as a copyrighted computer program with DJKI.",
+    title: "Village Financial Recording Mobile Application",
+    desc: "Developed a mobile application for village financial transaction recording and reporting. Registered as a copyrighted computer program by the Direktorat Jenderal Kekayaan Intelektual (DJKI). Registration No.: EC002026071168.",
     stack: ["Flutter", "Firebase", "MySQL"],
 
     images: [
@@ -174,11 +158,11 @@ export const projects: Project[] = [
   },
 
   {
-    id: "PRJ / 04 — BIG DATA",
-    badge: "Analysis",
-    title: "Mental Health Data Analysis",
-    desc: "Preprocessing, exploratory data analysis, and visualization work aimed at surfacing meaningful trends in a mental-health dataset.",
-    stack: ["Python", "SQL", "Pandas", "Matplotlib"],
+    id: "PRJ / 04 — DATA SCIENCE",
+    badge: "Classification",
+    title: "Depression Classification among University Students",
+    desc: "Built a binary classification pipeline using Logistic Regression and Random Forest on 101 survey records with 11 features, achieving 81.0% test accuracy. Applied data preprocessing, feature engineering, stratified cross-validation, and feature-influence analysis.",
+    stack: ["Python", "Pandas", "Matplotlib", "Scikit-Learn"],
 
     images: [
       "/projects/corn/home.jpg",

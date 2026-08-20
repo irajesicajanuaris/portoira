@@ -15,13 +15,15 @@ import {
   SiBootstrap,
   SiOpencv,
   SiMysql,
-  SiNodedotjs,
-  SiFirebase,
   SiGit,
   SiGithub,
   SiAndroidstudio,
+  SiPandas,
+  SiScikitlearn,
+  SiNumpy,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import { FaChartLine } from "react-icons/fa";
 
 const iconMap: Record<string, React.ReactNode> = {
   Python: <SiPython />,
@@ -33,9 +35,11 @@ const iconMap: Record<string, React.ReactNode> = {
   Flask: <SiFlask />,
   Bootstrap: <SiBootstrap />,
   OpenCV: <SiOpencv />,
+  Pandas: <SiPandas />,
+  Matplotlib: <FaChartLine />,
+  "Scikit-Learn": <SiScikitlearn />,
+  "NumPy": <SiNumpy />,
   MySQL: <SiMysql />,
-  "Node.js": <SiNodedotjs />,
-  Firebase: <SiFirebase />,
   Git: <SiGit />,
   GitHub: <SiGithub />,
   "VS Code": <VscVscode />,
@@ -45,7 +49,13 @@ const iconMap: Record<string, React.ReactNode> = {
 export default function Skills() {
   const { t } = useLanguage();
 
-  const skillKeys = ["skillLanguages", "skillFrameworks", "skillDatabase", "skillTools"];
+  const skillKeys = [
+    "skillLanguages",
+    "skillFrameworks",
+    "skillDataAI",
+    "skillDatabase",
+    "skillTools",
+  ];
 
   return (
     <section id="skills">
