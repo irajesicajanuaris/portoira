@@ -26,6 +26,8 @@ export const profile = {
 export const heroTags = [
   { label: "Data Analysis" },
   { label: "AI / Machine Learning" },
+  { label: "Deep Learning" },
+  { label: "Computer Vision" },
   { label: "Database System" },
 ];
 
