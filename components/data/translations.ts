@@ -88,6 +88,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     eduDegree: "Bachelor of Information Technology",
     eduGpa: "GPA / 4.00",
 
+    // Project Modal
+    modalProblem: "PROBLEM & OBJECTIVE",
+    modalDataset: "DATASET & METHOD",
+    modalResults: "RESULTS",
+    modalImplementation: "IMPLEMENTATION",
+    modalConclusion: "CONCLUSION",
+
     // Contact
     contactEyebrow: "Let's connect",
     contactTitle: "Open to Opportunities",
@@ -198,6 +205,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     eduSub: "Latar belakang akademik",
     eduDegree: "Sarjana Teknologi Informasi",
     eduGpa: "IPK / 4.00",
+
+    // Project Modal
+    modalProblem: "PERMASALAHAN & TUJUAN",
+    modalDataset: "DATA & METODE",
+    modalResults: "HASIL",
+    modalImplementation: "IMPLEMENTASI",
+    modalConclusion: "KESIMPULAN",
 
     // Contact
     contactEyebrow: "Mari terhubung",

@@ -21,6 +21,13 @@ export type Project = {
   images?: string[];
   github?: string;
   live?: string;
+
+  problem?: string;
+  dataset?: { label: string; value: string }[];
+  model?: { name: string; task: string };
+  results?: { value: string; label: string }[];
+  implementation?: string[];
+  conclusion?: string;
 };
 
 export type Credential = {
