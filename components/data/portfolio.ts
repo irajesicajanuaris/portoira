@@ -152,7 +152,7 @@ export const projects: Project[] = [
       "/projects/thesis/Thesis.png",
       "/projects/thesis/Confusion Matrix (1).png",
     ],
-    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    github: "https://github.com/irajesicajanuaris/Mobile-Corn-Detect.git",
   },
 
   {
@@ -191,7 +191,7 @@ export const projects: Project[] = [
       "/projects/Comvis/Confusion Matrix (2).png",
     ],
     github: "https://github.com/irajesicajanuaris/deteksidaun.git",
-    live: "https://your-live-website.vercel.app",
+    // live: "https://your-live-website.vercel.app",
   },
 
   {
@@ -216,8 +216,7 @@ export const projects: Project[] = [
       "The application successfully digitizes financial recording for RT 03/RW 09 Desa Klapagading, reducing manual errors and improving transparency. Registered as a copyrighted computer program with DJKI (Reg. No. EC002026071168).",
 
     images: [],
-    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
-    live: "https://your-live-website.vercel.app",
+    live: "https://ppt-blond.vercel.app/",
   },
 
   {
@@ -257,8 +256,8 @@ export const projects: Project[] = [
       "/projects/BigData/Confusion Matrix (3).png",
       "/projects/BigData/Confusion Matrix (4).png",
     ],
-    github: "https://github.com/USERNAME/YOUR-REPOSITORY",
-    live: "",
+    // github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    // live: "",
   },
 ];
 
