@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
+import { iconMap } from "../utils/techIcons";
 import type { Project } from "../types/portfolio";
 
 type ProjectModalProps = {
@@ -97,7 +98,10 @@ export default function ProjectModal({
           {/* TECH STACK */}
           <div className="project-modal-tech-box">
             {project.stack.map((technology) => (
-              <span key={technology} className="project-modal-tech">{technology}</span>
+              <span key={technology} className="project-modal-tech">
+                {iconMap[technology] && <span className="pm-tech-icon">{iconMap[technology]}</span>}
+                {technology}
+              </span>
             ))}
           </div>
 

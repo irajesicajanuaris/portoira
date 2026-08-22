@@ -39,6 +39,7 @@ export default function Hero() {
         <div className="cta-row">
           <a href="#projects" className="btn btn-solid">{t.heroCtaProjects}</a>
           <a href="#contact" className="btn btn-ghost">{t.heroCtaContact}</a>
+          <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">CV ↗</a>
         </div>
 
         <div className="meta-strip">

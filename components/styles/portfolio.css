@@ -170,6 +170,29 @@
   color: var(--accent);
 }
 
+.ira-portfolio .cv-link {
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  background: var(--surface);
+  padding: 5px 12px;
+  font-family: var(--font-body), "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-medium);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.ira-portfolio .cv-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* =========================================================
    HERO
    ========================================================= */
@@ -593,10 +616,15 @@
    ========================================================= */
 
 .ira-portfolio .skill-groups {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
-  align-items: stretch;
+  justify-content: center;
+}
+
+.ira-portfolio .skill-groups .skill-card {
+  flex: 0 0 calc((100% - 48px) / 4);
+  min-width: 180px;
 }
 
 .ira-portfolio .skill-card {
@@ -1348,6 +1376,9 @@
 }
 
 .ira-portfolio .project-modal-tech {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 4px 9px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -1356,6 +1387,15 @@
   font-size: 11px;
   font-weight: 500;
   color: var(--ink-medium);
+}
+
+.ira-portfolio .pm-tech-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--accent);
 }
 
 .ira-portfolio .project-modal-links {
@@ -1694,7 +1734,12 @@
   }
 
   .ira-portfolio .skill-groups {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ira-portfolio .skill-groups .skill-card {
+    max-width: none;
   }
 }
 

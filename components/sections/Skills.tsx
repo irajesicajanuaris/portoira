@@ -4,58 +4,18 @@ import Reveal from "../ui/Reveal";
 import SectionHeader from "../ui/SectionHeader";
 import { skillGroups } from "../data/portfolio";
 import { useLanguage } from "../context/LanguageContext";
-import {
-  SiPython,
-  SiJavascript,
-  SiPhp,
-  SiSqlite,
-  SiDart,
-  SiFlutter,
-  SiFlask,
-  SiBootstrap,
-  SiOpencv,
-  SiMysql,
-  SiGit,
-  SiGithub,
-  SiAndroidstudio,
-  SiPandas,
-  SiScikitlearn,
-  SiNumpy,
-} from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
-import { FaChartLine } from "react-icons/fa";
+import { iconMap } from "../utils/techIcons";
 
-const iconMap: Record<string, React.ReactNode> = {
-  Python: <SiPython />,
-  JavaScript: <SiJavascript />,
-  PHP: <SiPhp />,
-  SQL: <SiSqlite />,
-  Dart: <SiDart />,
-  Flutter: <SiFlutter />,
-  Flask: <SiFlask />,
-  Bootstrap: <SiBootstrap />,
-  OpenCV: <SiOpencv />,
-  Pandas: <SiPandas />,
-  Matplotlib: <FaChartLine />,
-  "Scikit-Learn": <SiScikitlearn />,
-  "NumPy": <SiNumpy />,
-  MySQL: <SiMysql />,
-  Git: <SiGit />,
-  GitHub: <SiGithub />,
-  "VS Code": <VscVscode />,
-  "Android Studio": <SiAndroidstudio />,
-};
+const skillKeys = [
+  "skillLanguages",
+  "skillFrameworks",
+  "skillDataAI",
+  "skillDatabase",
+  "skillTools",
+];
 
 export default function Skills() {
   const { t } = useLanguage();
-
-  const skillKeys = [
-    "skillLanguages",
-    "skillFrameworks",
-    "skillDataAI",
-    "skillDatabase",
-    "skillTools",
-  ];
 
   return (
     <section id="skills">
