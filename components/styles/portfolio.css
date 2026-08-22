@@ -616,15 +616,9 @@
    ========================================================= */
 
 .ira-portfolio .skill-groups {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  justify-content: center;
-}
-
-.ira-portfolio .skill-groups .skill-card {
-  flex: 0 0 calc((100% - 48px) / 4);
-  min-width: 180px;
 }
 
 .ira-portfolio .skill-card {
