@@ -64,7 +64,7 @@ export default function Hero() {
             {t.heroCtaContact}
           </a>
           <a
-            href="/cv/cv-irajesicajanuaris.pdf"
+            href="/cv/2-Ira Jesica Januari S-ind.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-ghost"

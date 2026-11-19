@@ -190,7 +190,7 @@ export const projects: Project[] = [
       "/projects/Comvis/comvis.png",
       "/projects/Comvis/Confusion Matrix (2).png",
     ],
-    github: "https://github.com/irajesicajanuaris/deteksidaun.git",
+    github: "https://github.com/irajesicajanuaris/DeteksiDaun_WebApp.git",
     // live: "https://your-live-website.vercel.app",
   },
 
@@ -256,7 +256,8 @@ export const projects: Project[] = [
       "/projects/BigData/Confusion Matrix (3).png",
       "/projects/BigData/Confusion Matrix (4).png",
     ],
-    // github: "https://github.com/USERNAME/YOUR-REPOSITORY",
+    github:
+      "https://colab.research.google.com/drive/1yfgpn4Xxh8klCpWXCAQ1MqHTiIl-JDhn?usp=sharing",
     // live: "",
   },
 ];
